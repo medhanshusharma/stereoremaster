@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-NETLIFY-DOMAIN</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/index.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/blog.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/cart.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/checkout.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/orders.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/success.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/post.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/albums/kishore-in-stereo.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/albums/lata-in-stereo.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/albums/mukesh-in-stereo.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/albums/mohammed-rafi-in-stereo-volume-2.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/albums/stereogeet-volume-4.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/albums/gol-maal.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/albums/aradhana.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/albums/aa-gale-lag-jaa.html</loc></url>
+  <url><loc>https://YOUR-NETLIFY-DOMAIN/albums/love-story.html</loc></url>
+</urlset>

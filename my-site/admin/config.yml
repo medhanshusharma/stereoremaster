@@ -1,0 +1,62 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: false
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "albums"
+    label: "Albums"
+    folder: "content/albums"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "ID", name: "id", widget: "string", hint: "Example: a10" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "Used for the album URL" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Artist", name: "artist", widget: "string" }
+      - { label: "Year", name: "year", widget: "number", value_type: "int" }
+      - { label: "Genre", name: "genre", widget: "string" }
+      - { label: "Price (INR)", name: "price", widget: "number", value_type: "int" }
+      - { label: "Cover image", name: "cover", widget: "image" }
+      - label: "Gallery images"
+        name: "gallery"
+        widget: "list"
+        field: { label: "Image", name: "image", widget: "image" }
+      - { label: "Format", name: "format", widget: "string" }
+      - { label: "Released", name: "released", widget: "boolean", default: true }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false, required: false }
+      - { label: "SEO title", name: "seo_title", widget: "string", required: false }
+      - { label: "SEO description", name: "seo_description", widget: "text", required: false }
+      - label: "Tracks"
+        name: "tracks"
+        widget: "list"
+        fields:
+          - { label: "Track title", name: "t", widget: "string" }
+          - { label: "Length", name: "len", widget: "string", required: false }
+      - { label: "Album notes", name: "notes", widget: "text" }
+
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Publish date", name: "date", widget: "datetime" }
+      - { label: "Cover image", name: "cover", widget: "image" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        field: { label: "Tag", name: "tag", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Related album slug", name: "related_album", widget: "string", required: false }
+      - { label: "SEO title", name: "seo_title", widget: "string", required: false }
+      - { label: "SEO description", name: "seo_description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }

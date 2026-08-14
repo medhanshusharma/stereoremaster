@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | Stereo Remaster</title>
+  <meta name="description" content="Pay once for the whole album cart and submit order details.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0"></script>
+</head>
+<body data-page="cart">
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">stereo remaster</span>
+      </a>
+      <nav class="site-nav mono">
+        <a href="index.html" data-nav="home">Catalogue</a>
+        <a href="blog.html" data-nav="blog">Blog</a>
+        <a href="orders.html" data-nav="orders">Orders</a>
+        <a class="cart-pill" href="cart.html" data-nav="cart">Cart <span class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <div>
+        <h1>Checkout in <em>one payment.</em></h1>
+        <p>Single payment for the full cart.</p>
+      </div>
+    </section>
+
+    <section class="checkout-layout">
+      <div class="summary-card" data-checkout-summary></div>
+      <div class="form-card">
+        <h2>Details</h2>
+        <div class="payment-box" data-payment-box></div>
+        <form data-checkout-form>
+          <div class="field">
+            <label class="mono" for="f-txn">Transaction or UTR ID</label>
+            <input id="f-txn" type="text" required placeholder="Example: 4359XXXXXXXX12">
+          </div>
+          <div class="field">
+            <label class="mono" for="f-email">Email address</label>
+            <input id="f-email" type="email" required placeholder="you@example.com">
+          </div>
+          <div class="field">
+            <label class="mono" for="f-phone">Phone number</label>
+            <input id="f-phone" type="tel" required placeholder="+91 ...">
+          </div>
+          <div class="field">
+            <label class="mono" for="f-notes">Notes</label>
+            <textarea id="f-notes" placeholder="Optional"></textarea>
+          </div>
+          <div class="button-row">
+            <button class="btn mono" type="submit">Submit order</button>
+            <a class="btn btn-secondary mono" href="cart.html">Back to cart</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div>Stereo Remaster</div>
+      <div class="mono">Checkout</div>
+    </div>
+  </footer>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>

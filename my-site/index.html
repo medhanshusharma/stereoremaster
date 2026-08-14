@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stereo Remaster | Curated Stereo Albums</title>
+  <meta name="description" content="Hand-restored stereo remasters with separate album pages and multi-album checkout.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0"></script>
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">stereo remaster</span>
+      </a>
+      <nav class="site-nav mono">
+        <a href="index.html" data-nav="home">Catalogue</a>
+        <a href="blog.html" data-nav="blog">Blog</a>
+        <a href="orders.html" data-nav="orders">Orders</a>
+        <a class="cart-pill" href="cart.html" data-nav="cart">Cart <span class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-panel">
+        <div class="hero-copy">
+          <div class="eyebrow mono">Stereo remasters</div>
+          <h1>Classic albums, <em>reframed.</em></h1>
+          <p>Curated stereo restorations with separate release pages and one clean multi-album checkout.</p>
+          <div class="button-row">
+            <a class="btn mono" href="#catalogue">Catalogue</a>
+            <a class="btn btn-secondary mono" href="blog.html">Blog</a>
+          </div>
+        </div>
+        <aside class="hero-meta-card">
+          <div class="hero-meta-grid">
+            <div class="hero-meta-item">
+              <div class="mono">Delivery</div>
+              <strong>Lossless files by email</strong>
+            </div>
+            <div class="hero-meta-item">
+              <div class="mono">Checkout</div>
+              <strong>Multiple albums in one order</strong>
+            </div>
+            <div class="hero-meta-item">
+              <div class="mono">Timing</div>
+              <strong>Within 24 hours after verification</strong>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="catalogue">
+      <div class="section-heading">
+        <div>
+          <h2 class="section-heading-title">The Catalogue</h2>
+          <p>Every release now has its own page.</p>
+        </div>
+        <div class="mono muted" data-album-count></div>
+      </div>
+      <div class="album-grid" data-album-grid></div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div>
+          <h2>Current Focus</h2>
+          <p>Selected releases.</p>
+        </div>
+      </div>
+      <div class="spotlight-grid" data-spotlight-grid></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div>Stereo Remaster</div>
+      <div class="mono">Direct sales • separate release pages</div>
+    </div>
+  </footer>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>

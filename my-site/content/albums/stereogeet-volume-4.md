@@ -1,0 +1,55 @@
+---
+id: "a05"
+slug: "stereogeet-volume-4"
+title: "Stereogeet Volume 4"
+artist: "Various Artists"
+year: 2026
+genre: "Soundtrack"
+price: 799
+cover: "https://i.ibb.co/vxHcfNpX/photo-2026-05-11-21-28-32.jpg"
+gallery:
+  - "https://i.ibb.co/vxHcfNpX/photo-2026-05-11-21-28-32.jpg"
+format: "FLAC 24-Bit 44.1kHz"
+released: true
+featured: false
+seo_title: "Stereogeet Volume 4 | Stereo Remaster"
+seo_description: "A carefully curated collection of Bollywood stereo remasters presented in 24-Bit high fidelity audio."
+tracks:
+  - t: "Aap Ke Aa Jaane Se"
+    len: "7:07"
+  - t: "Bedardi Tere Pyar Ne"
+    len: "4:29"
+  - t: "Saawan Ke Jhoolon Ne"
+    len: "6:34"
+  - t: "Chamma Chamma"
+    len: "5:59"
+  - t: "Tumse Milkar Na Jane"
+    len: "6:53"
+  - t: "Kya Karte The Sajna"
+    len: "7:01"
+  - t: "Tere Mere Honthon"
+    len: "5:29"
+  - t: "Chori Chori Dil Tera"
+    len: "6:40"
+  - t: "Phool Gulab Ka"
+    len: "6:08"
+  - t: "Tumse Milke"
+    len: "5:14"
+  - t: "Tune Bechain Itna"
+    len: "5:36"
+  - t: "Tu Jab Jab Mujhko Pukare"
+    len: "10:56"
+  - t: "Dil Kho Gaya"
+    len: "6:13"
+  - t: "O Priya Priya"
+    len: "6:04"
+  - t: "Der Na Ho Jaye Kahin"
+    len: "8:22"
+  - t: "Hum Teri Mohabbat Mein"
+    len: "6:29"
+  - t: "Jaadu Teri Nazar"
+    len: "4:43"
+notes: "A carefully curated collection of Bollywood stereo remasters presented in 24-Bit high fidelity audio."
+---
+
+A carefully curated collection of Bollywood stereo remasters presented in 24-Bit high fidelity audio.
